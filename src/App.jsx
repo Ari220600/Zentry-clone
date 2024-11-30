@@ -4,6 +4,9 @@ import "./index.css";
 import About from "./components/About";
 import Features from "./components/Features";
 import NavBar from "./components/Navbar";
+import Contact from "./components/Contact";
+import ThreeSectionScroll from "./components/ThreeSectionScroll";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -12,9 +15,9 @@ const App = () => {
       <Hero />
       <About />
       <Features />
-      {/* <Story /> */}
-      {/* <Contact /> */}
-      {/* <Footer /> */}
+      <ThreeSectionScroll />
+      <Contact />
+      <Footer />
     </main>
   );
 };
