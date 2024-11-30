@@ -9,6 +9,7 @@ body {
   overflow-x: hidden;
   background-color: #dfdff0;
   font-family: "General Sans", sans-serif;
+  animation: ease-in-out;
 }
 
 @layer base {
