@@ -17,7 +17,7 @@ const ZentLanding = () => {
           <Button
             id="ENTER VAULT"
             title="ENTER VAULT"
-            containerClass="bg-gray-950 flex-center gap-1 text-white"
+            containerClass="bg-gray-900 flex-center gap-1 text-white"
           />
         </header>
 
