@@ -32,7 +32,7 @@ const ThreeSectionScroll = () => {
             setBgColor("bg-black"); // First section: black
           } else if (progress >= 1 / 3 && progress < 2 / 3) {
             setDivValue(2);
-            setBgColor("bg-yellow-500"); // Second section: yellow
+            setBgColor("bg-[#EDFF66]"); // Second section: yellow
           }
         },
       },

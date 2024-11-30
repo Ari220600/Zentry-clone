@@ -5,7 +5,7 @@ const ZentLanding = () => {
   return (
     <div className="min-h-screen relative">
       {/* First Section - Yellow Background */}
-      <div className="min-h-screen bg-yellow-500 p-8">
+      <div className="min-h-screen bg-[#EDFF66] p-8">
         {/* Header Section */}
         <header className="max-w-6xl mx-auto mb-32">
           <h1 className="text-6xl md:text-7xl font-black leading-tight tracking-tighter mb-8">
@@ -87,10 +87,10 @@ const ZentLanding = () => {
         </div>
         <div className="absolute bottom-12 right-20 w-24 h-24 md:scale-[2] rotate-90 md:animate-[spin_2s_linear_infinite]">
           <svg viewBox="0 0 100 100" className="w-full h-full">
-            <polygon points="50,20 65,35 35,35" className="fill-yellow-500" />
-            <polygon points="80,50 65,65 65,35" className="fill-yellow-500" />
-            <polygon points="50,80 35,65 65,65" className="fill-yellow-500" />
-            <polygon points="20,50 35,35 35,65" className="fill-yellow-500" />
+            <polygon points="50,20 65,35 35,35" className="fill-[#EDFF66]" />
+            <polygon points="80,50 65,65 65,35" className="fill-[#EDFF66]" />
+            <polygon points="50,80 35,65 65,65" className="fill-[#EDFF66]" />
+            <polygon points="20,50 35,35 35,65" className="fill-[#EDFF66]" />
           </svg>
         </div>
         <div className="absolute bottom-12 right-20 w-24 h-24  hover:animate-[spin_2s_reverse_infinite] ">
