@@ -46,9 +46,9 @@ const FloatingImage = () => {
   };
 
   return (
-    <div id="story" className="min-h-dvh w-screen text-blue-50">
+    <div id="story" className="min-h-dvh w-screen  ">
       <div className="flex size-full flex-col items-center py-10 pb-24">
-        <p className="font-general text-sm uppercase md:text-[10px]">
+        <p className="font-general text-sm uppercase md:text-[10px] text-blue-50">
           the multiversal ip world
         </p>
 
@@ -105,7 +105,7 @@ const FloatingImage = () => {
 
         <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
           <div className="flex h-full w-fit flex-col items-center md:items-start">
-            <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
+            <p className="mt-3 max-w-sm text-center font-circular-web  md:text-start">
               Where realms converge, lies Zentry and the boundless pillar.
               Discover its secrets and shape your fate amidst infinite
               opportunities.
@@ -114,7 +114,7 @@ const FloatingImage = () => {
             <Button
               id="realm-btn"
               title="discover prologue"
-              containerClass="mt-5"
+              containerClass="mt-5 bg-gray-900 text-white"
             />
           </div>
         </div>
